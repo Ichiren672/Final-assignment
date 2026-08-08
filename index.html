@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>配布サイトトップ|</title>
+        <meta name="description" content="金子勇介が配布しているソフトウェアの一覧を検索、確認できます。"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="canonical" href="https://tools.kaneko996.dev/">
+        <script src="./js/script.js" defer></script>
+        <script src="./js/getinfomationlist.js" defer></script>
+        <script src="./js/getapplist.js" defer></script>
+    </head>
+    <body>
+        <header class="header" id="header"></header>
+        <div class="container">
+            <main class="contents">
+                <h2>ソフトウェア配布サイト</h2>
+                <h3>インフォメーション</h3>
+                <div class="site-info" id="info">
+                    まだ何もない...
+                </div>
+                <div class="goto-info">
+                    <a href="./information/">すべてのインフォメーションを見る&gt;&gt;</a>
+                </div>
+                <div class="finder">
+                    <input type="text" id="findbox" placeholder="名前、タグ、環境で検索">
+                    <button id="findbtn"></button>
+                </div>
+                <div class="listbox">
+                    <div class="pagemover">
+                        <button class="jumptop">&lt;&lt;</button>
+                        <button class="jumpprev">&lt;</button>
+                        <span class="pageinfo">0件中 0 - 0件表示</span>
+                        <button class="jumpnext">&gt;</button>
+                        <button class="jumpbottom">&gt;&gt;</button>
+                    </div>
+                    <div id="list"></div>
+                    <div class="pagemover">
+                        <button class="jumptop">&lt;&lt;</button>
+                        <button class="jumpprev">&lt;</button>
+                        <span class="pageinfo">0件中 0 - 0件表示</span>
+                        <button class="jumpnext">&gt;</button>
+                        <button class="jumpbottom">&gt;&gt;</button>
+                    </div>
+                </div>
+            </main>
+            <aside class="toc" id="sidearea"></aside>
+        </div>
+        <footer id="footarea"></footer>
+        <a href="#" class="gotop">▲TOPに戻る▲</div>
+    </body>
+</html>
