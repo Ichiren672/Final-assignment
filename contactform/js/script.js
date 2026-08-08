@@ -10,5 +10,4 @@ check.addEventListener('change', () => {
         sendbox.classList.remove('agreed');
         sendbox.disabled=true;
     } 
-    console.log(check.checked);
 });
